@@ -1,1 +1,301 @@
-
+incident_id,incident_date,incident_type,severity,status,affected_system,department,region,assigned_analyst,resolution_date,estimated_cost_usd,records_affected,is_regulatory_breach,notes
+INC-0001,2024-11-23,Unauthorized Access,High,Open,CRM,Legal,West,Priya Mehta,,37111.33,1952,Yes,Third-party vendor involved
+INC-0002,2024-04-29,Malware,Medium,In Progress,Cloud Storage,Legal,East,Priya Mehta,2024-04-30,7188.59,49729,Yes,Containment successful
+INC-0003,2024-06-23,Malware,High,Open,Web App,SecOps,East,Neha Joshi,2024-06-30,15780.44,2847,Under Review,
+INC-0004,2024-10-01,Data Exfiltration,Critical,Resolved,VPN Gateway,Marketing,North,Priya Mehta,,12280.63,43336,Yes,Investigation ongoing
+INC-0005,2024-02-10,Brute Force,Low,Resolved,Email Server,IT,East,Amit Verma,2024-03-09,3863.25,43920,No,User error confirmed
+INC-0006,2024-11-07,Malware,Medium,Resolved,VPN Gateway,Marketing,East,Priya Mehta,2024-11-25,1717.68,15010,Yes,No data loss confirmed
+INC-0007,2024-07-24,Brute Force,High,Closed,Cloud Storage,HR,East,Sara Khan,2024-07-31,32287.67,16162,Under Review,Investigation ongoing
+INC-0008,2024-10-26,Unauthorized Access,Critical,Closed,CRM,SecOps,North,Rohan Das,2024-11-14,54618.47,10016,Under Review,Patch applied
+INC-0009,2024-12-14,Brute Force,Critical,Resolved,ERP,Marketing,North,Neha Joshi,2024-12-17,57552.08,42006,No,User error confirmed
+INC-0010,2024-05-30,Data Exfiltration,Low,In Progress,CRM,SecOps,East,Amit Verma,2024-06-14,9542.78,10016,No,Patch applied
+INC-0011,2024-10-03,Brute Force,Low,Open,CRM,IT,East,Amit Verma,2024-11-02,6029.55,3796,Yes,User error confirmed
+INC-0012,2024-02-13,Unauthorized Access,Low,In Progress,Cloud Storage,Legal,South,Neha Joshi,2024-03-11,9782.05,34581,Under Review,Containment successful
+INC-0013,2024-04-18,Malware,Medium,Resolved,Cloud Storage,Legal,West,Rohan Das,2024-05-13,7158.19,16246,Yes,User error confirmed
+INC-0014,2024-06-22,Phishing,Medium,Open,ERP,HR,North,Priya Mehta,,5925.56,21654,Yes,Third-party vendor involved
+INC-0015,2024-05-22,Brute Force,Medium,In Progress,Cloud Storage,SecOps,West,Amit Verma,2024-05-29,7261.19,6181,Yes,Containment successful
+INC-0016,2024-06-30,Ransomware,Low,Open,Endpoint,Marketing,East,Rohan Das,2024-07-15,6766.31,16295,Yes,Third-party vendor involved
+INC-0017,2024-10-01,DDoS,Medium,Open,Cloud Storage,SecOps,Central,Rohan Das,2024-10-15,2857.6,3315,Under Review,Escalated to CISO
+INC-0018,2024-02-17,Brute Force,Medium,Closed,VPN Gateway,SecOps,West,Priya Mehta,2024-03-16,1746.48,10789,No,Escalated to CISO
+INC-0019,2024-07-18,Brute Force,Critical,In Progress,VPN Gateway,IT,South,Priya Mehta,2024-08-13,43144.76,37957,Under Review,Escalated to CISO
+INC-0020,2024-06-09,Unauthorized Access,Critical,Open,CRM,SecOps,South,Rohan Das,,75676.13,38996,Yes,Third-party vendor involved
+INC-0021,2024-07-25,Phishing,Medium,Open,Endpoint,Marketing,Central,Karan Singh,,5831.3,17089,Yes,No data loss confirmed
+INC-0022,2024-05-02,Ransomware,High,Open,Cloud Storage,Legal,Central,Rohan Das,2024-05-07,68855.07,4801,Under Review,Third-party vendor involved
+INC-0023,2024-09-16,DDoS,High,Resolved,Database,HR,West,Neha Joshi,2024-10-16,132189.19,40086,Under Review,Escalated to CISO
+INC-0024,2024-12-07,Unauthorized Access,Low,Resolved,CRM,Finance,Central,Sara Khan,2024-12-17,9395.41,17848,No,Third-party vendor involved
+INC-0025,2024-06-24,Data Exfiltration,High,Open,CRM,Marketing,West,Neha Joshi,2024-07-15,76058.65,2889,Yes,No data loss confirmed
+INC-0026,2024-03-07,Malware,Medium,Open,CRM,Finance,South,Priya Mehta,2024-03-16,7438.19,24196,Under Review,Patch applied
+INC-0027,2024-08-08,Phishing,High,Resolved,VPN Gateway,Marketing,South,Rohan Das,,55015.4,23178,Under Review,Containment successful
+INC-0028,2024-11-13,Unauthorized Access,Medium,Closed,ERP,HR,East,Divya Nair,2024-12-13,8659.6,43903,Under Review,Third-party vendor involved
+INC-0029,2024-05-16,Phishing,Low,Closed,VPN Gateway,HR,West,Karan Singh,,3887.16,20000,Yes,Third-party vendor involved
+INC-0030,2024-01-13,Ransomware,High,Resolved,Web App,Marketing,Central,Divya Nair,2024-01-26,42151.16,44532,Under Review,No data loss confirmed
+INC-0031,2024-01-15,Data Exfiltration,High,Open,CRM,Legal,West,Karan Singh,,27195.89,47745,No,Containment successful
+INC-0032,2024-11-06,DDoS,Critical,Resolved,ERP,Marketing,West,Priya Mehta,2024-11-10,134975.96,34073,Under Review,Third-party vendor involved
+INC-0033,2024-07-05,Ransomware,High,Resolved,Database,Marketing,West,Karan Singh,2024-07-27,93661.73,26371,Under Review,Investigation ongoing
+INC-0034,2024-10-10,Malware,Critical,In Progress,Database,Operations,Central,Priya Mehta,,99906.95,19914,No,Third-party vendor involved
+INC-0035,2024-08-08,Brute Force,High,In Progress,Cloud Storage,SecOps,South,Rohan Das,2024-08-28,70015.73,18598,Under Review,No data loss confirmed
+INC-0036,2024-02-17,DDoS,Medium,In Progress,Email Server,Finance,North,Amit Verma,2024-03-13,6760.68,31138,Under Review,User error confirmed
+INC-0037,2024-08-21,Malware,Medium,Closed,Endpoint,HR,South,Priya Mehta,2024-09-11,7211.62,49215,Yes,Containment successful
+INC-0038,2024-04-22,DDoS,Critical,Open,Cloud Storage,HR,West,Karan Singh,,8007.65,49496,No,Containment successful
+INC-0039,2024-10-07,DDoS,Critical,Resolved,Cloud Storage,Marketing,South,Neha Joshi,2024-10-13,67785.43,28827,Yes,Investigation ongoing
+INC-0040,2024-04-30,DDoS,Low,Closed,Email Server,Marketing,South,Rohan Das,2024-05-11,1469.9,27188,No,No data loss confirmed
+INC-0041,2024-10-04,Malware,Medium,Open,Endpoint,Operations,North,Karan Singh,2024-10-06,8345.62,19569,No,Containment successful
+INC-0042,2024-10-02,Data Exfiltration,Medium,Closed,Cloud Storage,Finance,West,Karan Singh,2024-10-20,4933.47,43835,Under Review,Containment successful
+INC-0043,2024-03-25,Phishing,Medium,Closed,ERP,Finance,West,Sara Khan,2024-04-24,9809.15,30257,Yes,Escalated to CISO
+INC-0044,2024-05-13,Malware,Critical,Resolved,Endpoint,IT,North,Arjun Rao,2024-05-20,49363.45,1270,Under Review,Escalated to CISO
+INC-0045,2024-06-28,DDoS,Low,In Progress,ERP,Legal,South,Amit Verma,2024-07-01,7566.91,8272,No,User error confirmed
+INC-0046,2024-10-15,Unauthorized Access,High,Open,Email Server,IT,North,Priya Mehta,2024-10-30,115151.27,20444,Under Review,Containment successful
+INC-0047,2024-07-22,DDoS,Low,Open,Database,SecOps,Central,Rohan Das,2024-07-29,5961.77,37088,Yes,No data loss confirmed
+INC-0048,2024-09-29,Insider Threat,Low,Open,Endpoint,SecOps,West,Rohan Das,2024-10-11,5109.01,28411,No,
+INC-0049,2024-12-28,Data Exfiltration,Medium,Closed,Cloud Storage,Operations,Central,Neha Joshi,,7364.57,21122,Yes,User error confirmed
+INC-0050,2024-05-22,Malware,Critical,Resolved,ERP,Operations,East,Sara Khan,2024-05-30,85692.52,31952,Yes,No data loss confirmed
+INC-0051,2024-05-12,DDoS,High,Open,VPN Gateway,Marketing,West,Arjun Rao,2024-06-10,83590.76,36384,Yes,
+INC-0052,2024-11-26,DDoS,Low,Closed,VPN Gateway,IT,Central,Karan Singh,2024-12-11,1021.23,31015,Under Review,No data loss confirmed
+INC-0053,2024-08-05,Brute Force,High,Resolved,Database,IT,South,Rohan Das,2024-08-23,53095.67,47270,Yes,No data loss confirmed
+INC-0054,2024-03-02,Brute Force,Medium,Resolved,Database,Finance,South,Neha Joshi,2024-03-27,1996.26,14908,No,Patch applied
+INC-0055,2024-06-03,Phishing,Medium,Resolved,Email Server,Marketing,West,Rohan Das,,2815.68,803,Under Review,Investigation ongoing
+INC-0056,2024-08-28,Data Exfiltration,Medium,Closed,CRM,SecOps,North,Divya Nair,2024-09-08,9658.43,32227,Yes,Escalated to CISO
+INC-0057,2024-03-18,DDoS,High,Open,Endpoint,Legal,Central,Amit Verma,,13234.55,34247,No,
+INC-0058,2024-08-14,Phishing,Critical,Open,VPN Gateway,Marketing,South,Neha Joshi,2024-09-02,46154.35,43281,Yes,Patch applied
+INC-0059,2024-05-02,Malware,Low,Closed,Cloud Storage,IT,North,Amit Verma,,1649.67,18881,Under Review,Investigation ongoing
+INC-0060,2024-12-25,DDoS,Medium,Closed,CRM,Legal,South,Sara Khan,2024-12-28,9246.72,17408,Yes,User error confirmed
+INC-0061,2024-01-31,Data Exfiltration,High,Closed,CRM,Operations,East,Divya Nair,,89459.08,17841,Under Review,
+INC-0062,2024-08-12,Insider Threat,Low,Resolved,ERP,Finance,South,Priya Mehta,,8905.29,44058,No,Escalated to CISO
+INC-0063,2024-03-30,Unauthorized Access,Critical,Closed,Cloud Storage,Finance,West,Karan Singh,2024-04-20,137452.88,26761,No,No data loss confirmed
+INC-0064,2024-12-09,Brute Force,Medium,Resolved,Endpoint,SecOps,Central,Priya Mehta,,3365.06,29807,Yes,No data loss confirmed
+INC-0065,2024-05-09,Phishing,Critical,Closed,Endpoint,Finance,South,Karan Singh,2024-06-03,129804.13,40804,No,
+INC-0066,2024-01-27,Brute Force,Medium,Closed,CRM,Finance,Central,Amit Verma,2024-02-14,9283.96,46516,Yes,Investigation ongoing
+INC-0067,2024-10-09,Ransomware,Critical,Closed,CRM,Marketing,South,Arjun Rao,,14434.78,46963,No,Investigation ongoing
+INC-0068,2024-07-31,Unauthorized Access,Medium,Closed,VPN Gateway,Legal,Central,Sara Khan,2024-08-16,4622.19,4575,No,Containment successful
+INC-0069,2024-06-23,Data Exfiltration,High,Resolved,Cloud Storage,SecOps,South,Arjun Rao,2024-07-10,123172.15,35296,No,No data loss confirmed
+INC-0070,2024-06-19,Insider Threat,Critical,In Progress,VPN Gateway,Legal,West,Amit Verma,2024-07-07,68574.02,26920,Yes,No data loss confirmed
+INC-0071,2024-08-30,Unauthorized Access,Critical,Closed,ERP,HR,Central,Karan Singh,2024-09-25,58218.77,6577,No,User error confirmed
+INC-0072,2024-09-26,Unauthorized Access,Medium,Open,Cloud Storage,SecOps,East,Karan Singh,2024-09-27,4158.79,40845,Under Review,Containment successful
+INC-0073,2024-11-28,Malware,High,Resolved,Cloud Storage,SecOps,Central,Priya Mehta,,127925.03,40465,Yes,Third-party vendor involved
+INC-0074,2024-11-19,Malware,Medium,Open,CRM,Operations,South,Neha Joshi,2024-11-29,7492.99,1897,Yes,No data loss confirmed
+INC-0075,2024-01-29,Malware,Critical,In Progress,Email Server,HR,North,Divya Nair,2024-02-10,22262.68,40613,Under Review,Third-party vendor involved
+INC-0076,2024-09-11,Data Exfiltration,Medium,Closed,Database,Marketing,North,Arjun Rao,2024-09-16,4665.38,18850,Under Review,Patch applied
+INC-0077,2024-02-07,Malware,High,Resolved,Cloud Storage,SecOps,East,Amit Verma,2024-02-19,96021.34,25211,No,User error confirmed
+INC-0078,2024-05-01,Data Exfiltration,High,Open,Endpoint,IT,North,Priya Mehta,2024-05-13,148907.46,39741,Under Review,
+INC-0079,2024-05-26,DDoS,High,Resolved,Email Server,Marketing,North,Priya Mehta,2024-06-03,33241.18,20246,No,Escalated to CISO
+INC-0080,2024-10-23,Insider Threat,Low,Closed,Email Server,HR,South,Karan Singh,2024-10-28,9105.32,34789,Under Review,Investigation ongoing
+INC-0081,2024-03-25,Data Exfiltration,Critical,Resolved,CRM,Operations,North,Sara Khan,2024-04-21,145123.92,49424,Yes,Containment successful
+INC-0082,2024-10-12,Ransomware,Critical,Closed,Web App,Marketing,East,Divya Nair,2024-11-07,2580.84,41847,No,User error confirmed
+INC-0083,2024-12-11,DDoS,High,Open,Cloud Storage,Marketing,East,Divya Nair,2024-12-12,137330.76,7646,Yes,Escalated to CISO
+INC-0084,2024-01-20,Unauthorized Access,Low,Closed,Cloud Storage,IT,Central,Divya Nair,2024-02-05,1062.2,38491,Under Review,Patch applied
+INC-0085,2024-07-31,Data Exfiltration,Critical,Open,Web App,HR,West,Arjun Rao,2024-08-27,92540.01,15473,No,User error confirmed
+INC-0086,2024-12-17,Data Exfiltration,High,In Progress,CRM,SecOps,West,Rohan Das,2025-01-15,9552.24,43435,Yes,Escalated to CISO
+INC-0087,2024-01-26,DDoS,Medium,Open,VPN Gateway,Legal,South,Amit Verma,2024-02-03,7891.08,21532,Yes,Escalated to CISO
+INC-0088,2024-05-21,Unauthorized Access,Medium,Open,ERP,HR,North,Karan Singh,2024-05-26,5448.13,15593,Under Review,No data loss confirmed
+INC-0089,2024-01-09,Malware,Low,Open,CRM,Operations,West,Karan Singh,,1354.91,33635,Under Review,User error confirmed
+INC-0090,2024-08-19,Data Exfiltration,Low,Closed,ERP,Finance,West,Divya Nair,2024-09-08,7299.71,27936,Under Review,User error confirmed
+INC-0091,2024-09-08,Insider Threat,Low,In Progress,CRM,HR,East,Karan Singh,2024-09-23,9002.74,24962,Under Review,Investigation ongoing
+INC-0092,2024-08-20,Ransomware,Low,In Progress,Endpoint,Operations,South,Divya Nair,2024-09-03,7951.65,22212,No,Containment successful
+INC-0093,2024-07-31,Data Exfiltration,Critical,Resolved,Email Server,Marketing,West,Rohan Das,2024-08-11,47222.27,5978,Yes,User error confirmed
+INC-0094,2024-08-09,Phishing,High,Resolved,CRM,Operations,East,Divya Nair,,121859.51,47255,Yes,Investigation ongoing
+INC-0095,2024-11-03,Brute Force,Medium,In Progress,CRM,IT,Central,Karan Singh,2024-11-07,1631.83,7529,No,Third-party vendor involved
+INC-0096,2024-08-07,Data Exfiltration,Low,Open,Email Server,IT,East,Karan Singh,2024-09-01,6129.05,23004,Yes,Patch applied
+INC-0097,2024-03-14,Phishing,Low,Open,VPN Gateway,Operations,West,Arjun Rao,2024-03-27,1504.56,22340,Yes,No data loss confirmed
+INC-0098,2024-06-08,Unauthorized Access,Low,In Progress,ERP,Marketing,North,Neha Joshi,2024-07-03,8845.09,29039,Under Review,Containment successful
+INC-0099,2024-09-05,Ransomware,High,Resolved,Endpoint,Finance,East,Arjun Rao,2024-09-19,32727.56,34533,Under Review,Investigation ongoing
+INC-0100,2024-01-24,Data Exfiltration,Low,In Progress,Email Server,SecOps,East,Neha Joshi,2024-02-13,176.1,21503,Yes,Escalated to CISO
+INC-0101,2024-09-11,DDoS,Medium,Resolved,CRM,Operations,North,Divya Nair,2024-09-17,3864.05,1228,No,User error confirmed
+INC-0102,2024-06-09,Malware,Critical,Resolved,CRM,Operations,North,Karan Singh,2024-06-28,106570.09,11263,Under Review,
+INC-0103,2024-12-19,DDoS,Critical,Closed,Endpoint,Legal,North,Divya Nair,2024-12-22,126750.41,20334,Under Review,No data loss confirmed
+INC-0104,2024-04-23,Ransomware,Low,In Progress,Web App,IT,South,Amit Verma,2024-04-29,5153.78,6737,Yes,Investigation ongoing
+INC-0105,2024-04-11,Ransomware,Medium,In Progress,Cloud Storage,Operations,Central,Arjun Rao,,7626.13,44638,Under Review,No data loss confirmed
+INC-0106,2024-11-17,Data Exfiltration,Low,Resolved,ERP,IT,Central,Rohan Das,2024-12-02,4742.32,20342,No,
+INC-0107,2024-01-20,Ransomware,High,Closed,Cloud Storage,Legal,Central,Priya Mehta,,11971.28,29473,Under Review,Third-party vendor involved
+INC-0108,2024-06-13,Brute Force,Medium,Open,Web App,Marketing,North,Sara Khan,2024-06-30,9581.45,2565,Yes,
+INC-0109,2024-08-12,Data Exfiltration,Medium,Closed,Endpoint,SecOps,East,Priya Mehta,2024-09-01,3702.59,41345,Under Review,No data loss confirmed
+INC-0110,2024-02-03,Unauthorized Access,Critical,Resolved,CRM,Legal,South,Karan Singh,2024-02-21,42979.97,20331,Under Review,Containment successful
+INC-0111,2024-03-07,Insider Threat,High,In Progress,CRM,Marketing,West,Karan Singh,2024-03-10,84058.85,1194,No,Investigation ongoing
+INC-0112,2024-04-02,Unauthorized Access,Critical,In Progress,CRM,IT,North,Priya Mehta,2024-04-13,29204.78,43380,No,Patch applied
+INC-0113,2024-11-01,Unauthorized Access,Medium,Closed,ERP,Operations,East,Amit Verma,2024-11-07,8330.32,29111,Under Review,Investigation ongoing
+INC-0114,2024-08-17,Brute Force,High,In Progress,Web App,Marketing,Central,Arjun Rao,2024-08-25,144856.7,30256,No,Containment successful
+INC-0115,2024-09-14,Unauthorized Access,Medium,Resolved,ERP,Marketing,West,Karan Singh,2024-09-20,8032.47,36342,Yes,User error confirmed
+INC-0116,2024-05-25,Unauthorized Access,Medium,Closed,CRM,HR,West,Karan Singh,,2800.63,1747,No,Escalated to CISO
+INC-0117,2024-07-21,Insider Threat,Critical,In Progress,ERP,IT,North,Karan Singh,2024-07-29,149181.54,9571,Yes,Escalated to CISO
+INC-0118,2024-05-26,Brute Force,Medium,Closed,ERP,Finance,North,Neha Joshi,2024-06-11,7612.53,14133,Yes,Containment successful
+INC-0119,2024-02-26,DDoS,High,Closed,Cloud Storage,Finance,North,Arjun Rao,2024-03-05,18716.33,39107,Under Review,Escalated to CISO
+INC-0120,2024-11-19,Phishing,Medium,Resolved,VPN Gateway,Legal,West,Sara Khan,2024-11-27,2983.59,43540,Under Review,User error confirmed
+INC-0121,2024-09-25,Brute Force,Low,Open,Endpoint,IT,East,Priya Mehta,2024-09-28,3965.49,23402,Yes,No data loss confirmed
+INC-0122,2024-05-03,Insider Threat,Low,In Progress,ERP,IT,Central,Karan Singh,2024-05-24,7737.86,42126,Yes,
+INC-0123,2024-12-22,Brute Force,Medium,Open,Database,HR,North,Amit Verma,2024-12-28,724.7,2746,No,Investigation ongoing
+INC-0124,2024-09-20,DDoS,Critical,Resolved,Web App,SecOps,North,Karan Singh,2024-10-17,38370.41,17905,Yes,No data loss confirmed
+INC-0125,2024-08-11,Malware,Critical,Resolved,Email Server,Operations,West,Karan Singh,2024-09-04,134248.31,34031,No,User error confirmed
+INC-0126,2024-08-05,Insider Threat,Medium,Open,CRM,IT,East,Neha Joshi,,5500.2,29223,Under Review,Containment successful
+INC-0127,2024-03-26,Insider Threat,Critical,Closed,Database,Marketing,North,Rohan Das,2024-04-07,6832.1,43986,Under Review,Containment successful
+INC-0128,2024-07-05,Unauthorized Access,Medium,Closed,ERP,HR,North,Amit Verma,2024-07-29,9532.62,42281,No,No data loss confirmed
+INC-0129,2024-07-15,Insider Threat,Medium,Resolved,Cloud Storage,SecOps,North,Sara Khan,2024-07-17,6822.71,34698,No,Containment successful
+INC-0130,2024-06-09,Unauthorized Access,Low,Closed,Endpoint,Legal,North,Neha Joshi,2024-06-17,356.54,17058,Under Review,
+INC-0131,2024-04-19,Unauthorized Access,Critical,Open,Cloud Storage,HR,West,Rohan Das,2024-04-29,30426.66,44690,No,No data loss confirmed
+INC-0132,2024-12-29,Unauthorized Access,High,In Progress,Web App,Legal,South,Rohan Das,,133754.09,13171,Yes,Third-party vendor involved
+INC-0133,2024-09-09,Unauthorized Access,High,Open,CRM,IT,West,Arjun Rao,,70377.17,34451,No,Containment successful
+INC-0134,2024-10-21,Brute Force,High,Closed,Web App,HR,Central,Sara Khan,,96529.62,8456,No,Escalated to CISO
+INC-0135,2024-03-04,DDoS,Medium,Resolved,Database,SecOps,North,Neha Joshi,2024-03-14,1703.47,12864,Under Review,Investigation ongoing
+INC-0136,2024-03-05,Unauthorized Access,Low,In Progress,Email Server,Marketing,Central,Karan Singh,2024-03-25,5075.47,36937,Yes,Escalated to CISO
+INC-0137,2024-02-11,Malware,High,Open,Cloud Storage,Marketing,Central,Neha Joshi,,97843.93,42068,No,
+INC-0138,2024-05-05,Ransomware,Critical,Open,Email Server,Operations,West,Arjun Rao,2024-05-27,44966.36,30437,Yes,No data loss confirmed
+INC-0139,2024-11-06,Insider Threat,High,Closed,Email Server,SecOps,East,Rohan Das,,110262.86,20913,Yes,
+INC-0140,2024-03-03,Data Exfiltration,Medium,Closed,Endpoint,HR,South,Karan Singh,2024-03-11,1058.44,37859,Under Review,No data loss confirmed
+INC-0141,2024-04-07,Data Exfiltration,Critical,Closed,ERP,Finance,West,Arjun Rao,2024-04-23,75064.58,15776,Yes,No data loss confirmed
+INC-0142,2024-01-25,Brute Force,Critical,Resolved,ERP,SecOps,North,Divya Nair,,89829.06,8777,No,No data loss confirmed
+INC-0143,2024-07-25,DDoS,Low,Resolved,Database,Finance,West,Arjun Rao,2024-08-07,5745.79,36035,No,User error confirmed
+INC-0144,2024-03-06,Insider Threat,High,Resolved,Email Server,HR,Central,Divya Nair,2024-03-19,119337.14,32773,Yes,Escalated to CISO
+INC-0145,2024-01-20,Brute Force,High,In Progress,Email Server,IT,Central,Karan Singh,,120692.9,10649,No,Investigation ongoing
+INC-0146,2024-10-30,Data Exfiltration,Critical,Closed,ERP,IT,East,Rohan Das,2024-11-26,106456.6,27298,Under Review,Investigation ongoing
+INC-0147,2024-12-18,DDoS,Critical,Open,Cloud Storage,HR,Central,Divya Nair,2025-01-07,40196.8,9684,Under Review,Third-party vendor involved
+INC-0148,2024-01-17,Brute Force,Low,Resolved,Endpoint,HR,West,Amit Verma,2024-02-09,1988.76,26894,Under Review,
+INC-0149,2024-02-01,Brute Force,Medium,Closed,Web App,HR,West,Karan Singh,2024-02-18,5652.78,35800,No,Investigation ongoing
+INC-0150,2024-11-08,DDoS,High,Resolved,Database,Marketing,South,Arjun Rao,2024-11-16,83933.95,20777,No,No data loss confirmed
+INC-0151,2024-10-13,Malware,High,Closed,Web App,SecOps,South,Neha Joshi,2024-11-08,43524.51,2756,No,User error confirmed
+INC-0152,2024-06-26,DDoS,High,In Progress,Database,Legal,East,Sara Khan,2024-07-17,112227.11,7158,Under Review,Third-party vendor involved
+INC-0153,2024-05-04,Phishing,Medium,Open,Endpoint,IT,West,Rohan Das,,6415.65,44642,Yes,Escalated to CISO
+INC-0154,2024-10-08,Brute Force,Critical,Closed,VPN Gateway,SecOps,East,Karan Singh,2024-10-14,98107.47,18704,Under Review,Escalated to CISO
+INC-0155,2024-02-15,Unauthorized Access,Low,Closed,Email Server,Finance,West,Arjun Rao,2024-02-23,9140.97,12210,Under Review,Investigation ongoing
+INC-0156,2024-01-20,Insider Threat,Low,Resolved,Cloud Storage,Marketing,Central,Arjun Rao,,9291.7,8794,Under Review,
+INC-0157,2024-05-19,Brute Force,Low,Resolved,Email Server,Finance,East,Neha Joshi,,3373.77,37210,Under Review,Third-party vendor involved
+INC-0158,2024-03-30,Insider Threat,Critical,Open,Endpoint,Marketing,North,Sara Khan,2024-04-20,124134.98,9215,No,No data loss confirmed
+INC-0159,2024-05-07,Data Exfiltration,Critical,Resolved,Database,Legal,Central,Priya Mehta,,35710.43,17141,Under Review,No data loss confirmed
+INC-0160,2024-12-20,Unauthorized Access,Low,Closed,Database,Marketing,North,Neha Joshi,2025-01-11,4707.41,24087,Under Review,Third-party vendor involved
+INC-0161,2024-04-22,Insider Threat,Medium,Closed,Cloud Storage,SecOps,Central,Amit Verma,2024-05-08,4604.29,49929,Yes,User error confirmed
+INC-0162,2024-09-26,Ransomware,High,Open,VPN Gateway,Legal,Central,Sara Khan,2024-10-19,12176.36,10783,No,
+INC-0163,2024-02-29,Brute Force,Critical,Open,Cloud Storage,HR,Central,Divya Nair,2024-03-23,14095.78,29936,Under Review,Escalated to CISO
+INC-0164,2024-10-13,Malware,High,Resolved,ERP,Marketing,South,Rohan Das,2024-11-08,108630.37,2968,No,No data loss confirmed
+INC-0165,2024-12-24,Ransomware,Low,Closed,ERP,IT,West,Sara Khan,,9352.37,8875,Under Review,Containment successful
+INC-0166,2024-07-10,Malware,Critical,Closed,CRM,Marketing,Central,Sara Khan,2024-07-23,130508.23,42830,No,User error confirmed
+INC-0167,2024-04-01,DDoS,Medium,Open,ERP,IT,West,Divya Nair,2024-04-14,7305.8,34860,No,Third-party vendor involved
+INC-0168,2024-05-06,Ransomware,High,Open,Endpoint,Legal,North,Amit Verma,2024-05-11,28677.83,13505,Yes,User error confirmed
+INC-0169,2024-10-31,Phishing,Low,Closed,Cloud Storage,HR,Central,Amit Verma,,2522.87,49439,Yes,Patch applied
+INC-0170,2024-09-14,Insider Threat,High,In Progress,Database,HR,Central,Amit Verma,2024-09-22,86832.48,27103,No,Investigation ongoing
+INC-0171,2024-02-01,Malware,Medium,Closed,ERP,IT,West,Karan Singh,2024-02-20,6297.33,45633,No,Containment successful
+INC-0172,2024-03-17,DDoS,Critical,Resolved,Email Server,SecOps,West,Priya Mehta,2024-03-23,36524.74,36856,No,Containment successful
+INC-0173,2024-10-12,Insider Threat,Medium,Open,Cloud Storage,SecOps,East,Rohan Das,2024-10-25,2624.46,35103,Under Review,Third-party vendor involved
+INC-0174,2024-01-27,DDoS,Low,In Progress,Cloud Storage,HR,East,Neha Joshi,2024-02-18,8748.84,1004,Yes,Third-party vendor involved
+INC-0175,2024-03-01,DDoS,Critical,Closed,VPN Gateway,Legal,East,Neha Joshi,2024-03-26,137208.97,24947,No,No data loss confirmed
+INC-0176,2024-06-06,Brute Force,Critical,Resolved,VPN Gateway,IT,East,Divya Nair,2024-06-23,70167.61,2996,Under Review,Third-party vendor involved
+INC-0177,2024-03-15,DDoS,Critical,Resolved,VPN Gateway,Operations,Central,Amit Verma,,44631.25,32722,Under Review,No data loss confirmed
+INC-0178,2024-05-11,Insider Threat,Critical,In Progress,Email Server,Marketing,Central,Arjun Rao,2024-05-27,69393.94,12061,Under Review,Escalated to CISO
+INC-0179,2024-09-25,Phishing,Low,Open,Endpoint,HR,South,Rohan Das,,9457.36,46345,Yes,Escalated to CISO
+INC-0180,2024-04-21,Brute Force,Low,Closed,ERP,Finance,Central,Divya Nair,2024-05-03,6216.57,776,Yes,Investigation ongoing
+INC-0181,2024-10-01,Unauthorized Access,Critical,Open,CRM,Legal,South,Amit Verma,2024-10-02,121022.07,12578,Under Review,Investigation ongoing
+INC-0182,2024-06-30,Malware,Low,Closed,VPN Gateway,Marketing,South,Neha Joshi,2024-07-13,3793.21,44829,Yes,Escalated to CISO
+INC-0183,2024-02-17,Phishing,Critical,In Progress,CRM,Operations,West,Karan Singh,2024-03-01,8889.18,37083,Yes,Escalated to CISO
+INC-0184,2024-04-27,Ransomware,Critical,Resolved,ERP,HR,East,Priya Mehta,2024-05-25,41028.71,13576,Under Review,Patch applied
+INC-0185,2024-12-30,DDoS,Low,Closed,Web App,Operations,South,Rohan Das,2025-01-29,3062.84,32819,Under Review,No data loss confirmed
+INC-0186,2024-01-28,Insider Threat,Medium,Closed,Web App,Finance,East,Arjun Rao,,8402.88,32152,Yes,No data loss confirmed
+INC-0187,2024-10-10,Malware,Medium,Open,Database,SecOps,South,Rohan Das,2024-10-24,6828.98,5376,No,Patch applied
+INC-0188,2024-07-13,Insider Threat,Medium,Resolved,CRM,Finance,North,Neha Joshi,2024-08-03,7422.59,29146,No,Investigation ongoing
+INC-0189,2024-02-22,Malware,Medium,Open,ERP,Finance,East,Rohan Das,,4366.7,39120,Under Review,No data loss confirmed
+INC-0190,2024-07-16,Ransomware,Critical,In Progress,Email Server,Marketing,West,Sara Khan,,58476.03,9099,No,Investigation ongoing
+INC-0191,2024-05-17,Malware,Medium,Resolved,Cloud Storage,SecOps,North,Karan Singh,2024-05-20,4403.3,16495,Yes,
+INC-0192,2024-10-31,Phishing,Low,Closed,Web App,SecOps,Central,Divya Nair,2024-11-15,1441.35,21596,No,No data loss confirmed
+INC-0193,2024-08-08,DDoS,Medium,Closed,Web App,HR,West,Karan Singh,2024-09-05,3074.31,19100,Under Review,
+INC-0194,2024-10-21,Malware,Critical,Resolved,CRM,Legal,South,Sara Khan,2024-11-01,42404.87,44676,Under Review,Escalated to CISO
+INC-0195,2024-08-24,Ransomware,Critical,Closed,Cloud Storage,HR,East,Amit Verma,2024-08-31,119753.99,16559,Under Review,Patch applied
+INC-0196,2024-08-04,Brute Force,Critical,Closed,Endpoint,Legal,North,Karan Singh,2024-08-07,148609.74,45982,Under Review,User error confirmed
+INC-0197,2024-02-25,Phishing,High,Closed,Web App,SecOps,West,Rohan Das,2024-03-18,25367.6,691,Yes,Investigation ongoing
+INC-0198,2024-04-23,Malware,Medium,Closed,Email Server,IT,North,Arjun Rao,2024-05-10,4513.21,6851,No,Containment successful
+INC-0199,2024-02-13,Insider Threat,Medium,Closed,VPN Gateway,Legal,West,Karan Singh,,3548.45,31205,Yes,
+INC-0200,2024-12-22,Ransomware,High,Open,Web App,Marketing,North,Sara Khan,2024-12-25,7180.12,48528,Yes,Patch applied
+INC-0201,2024-10-09,DDoS,Critical,Closed,Email Server,HR,West,Divya Nair,,143790.16,1913,Under Review,Third-party vendor involved
+INC-0202,2024-08-18,DDoS,Low,Resolved,CRM,Legal,North,Sara Khan,2024-08-31,7076.88,23972,No,Third-party vendor involved
+INC-0203,2024-08-22,Insider Threat,Critical,Closed,Endpoint,Legal,North,Karan Singh,,79393.4,23067,No,Patch applied
+INC-0204,2024-12-10,Insider Threat,Low,Open,VPN Gateway,IT,North,Sara Khan,2024-12-20,6753.89,24464,Under Review,Patch applied
+INC-0205,2024-09-18,Malware,Medium,In Progress,Cloud Storage,Marketing,Central,Sara Khan,2024-10-08,5790.58,36366,Yes,
+INC-0206,2024-05-27,Phishing,High,Resolved,ERP,Operations,South,Amit Verma,,126376.79,25162,Under Review,
+INC-0207,2024-07-28,Ransomware,Critical,Open,VPN Gateway,IT,North,Neha Joshi,2024-08-11,73560.58,14735,Under Review,Investigation ongoing
+INC-0208,2024-03-27,Ransomware,Critical,Open,Database,SecOps,Central,Karan Singh,2024-04-15,82684.06,35523,Yes,
+INC-0209,2024-10-06,DDoS,Low,Resolved,ERP,Operations,East,Karan Singh,2024-10-20,7386.29,5700,No,User error confirmed
+INC-0210,2024-05-01,Malware,High,In Progress,Email Server,SecOps,South,Amit Verma,2024-05-25,129226.78,3890,Under Review,No data loss confirmed
+INC-0211,2024-09-29,Data Exfiltration,Medium,Resolved,Database,SecOps,Central,Rohan Das,2024-10-17,3304.17,8885,No,Escalated to CISO
+INC-0212,2024-05-21,Insider Threat,Medium,In Progress,Endpoint,Operations,South,Neha Joshi,2024-05-26,2571.8,41144,No,Containment successful
+INC-0213,2024-08-19,Data Exfiltration,Low,Resolved,Cloud Storage,Operations,East,Priya Mehta,,4088.22,48019,Yes,
+INC-0214,2024-11-21,Malware,Low,In Progress,Endpoint,SecOps,South,Arjun Rao,2024-12-03,7977.21,17598,No,Investigation ongoing
+INC-0215,2024-06-21,Phishing,Critical,Open,CRM,Marketing,West,Priya Mehta,2024-06-26,118351.4,8142,Yes,
+INC-0216,2024-08-21,Unauthorized Access,Critical,Resolved,Email Server,SecOps,East,Rohan Das,,30746.57,42899,No,Investigation ongoing
+INC-0217,2024-02-12,Data Exfiltration,Medium,In Progress,Endpoint,Marketing,North,Rohan Das,2024-03-12,612.69,71,Yes,
+INC-0218,2024-02-09,Brute Force,Medium,Open,ERP,Marketing,East,Rohan Das,,5242.5,27676,Under Review,Patch applied
+INC-0219,2024-09-01,Ransomware,Critical,Open,Web App,IT,East,Sara Khan,,13855.0,25082,Yes,Patch applied
+INC-0220,2024-02-05,DDoS,Medium,In Progress,Endpoint,Legal,West,Amit Verma,2024-02-06,4456.98,5681,Yes,Patch applied
+INC-0221,2024-03-04,Insider Threat,High,In Progress,VPN Gateway,IT,North,Amit Verma,2024-03-17,144505.68,36267,Under Review,Investigation ongoing
+INC-0222,2024-12-19,DDoS,High,Closed,Database,Marketing,North,Amit Verma,,31214.13,32432,No,User error confirmed
+INC-0223,2024-05-03,Phishing,Low,Resolved,Web App,HR,West,Divya Nair,2024-05-23,5330.04,23947,Under Review,Patch applied
+INC-0224,2024-08-29,Ransomware,Low,Open,Database,HR,North,Priya Mehta,2024-09-23,265.23,26081,Under Review,Investigation ongoing
+INC-0225,2024-11-17,Malware,Critical,Open,Email Server,IT,North,Neha Joshi,2024-12-12,63824.5,5178,Under Review,Third-party vendor involved
+INC-0226,2024-03-20,Malware,Low,In Progress,ERP,HR,North,Divya Nair,2024-04-02,3170.68,7601,No,Escalated to CISO
+INC-0227,2024-06-07,Unauthorized Access,Medium,Open,Email Server,Operations,East,Neha Joshi,2024-06-29,1282.49,10942,No,Patch applied
+INC-0228,2024-05-17,Malware,Low,Resolved,CRM,IT,Central,Rohan Das,2024-05-21,3416.61,32515,No,No data loss confirmed
+INC-0229,2024-01-29,Data Exfiltration,Medium,Open,CRM,HR,Central,Priya Mehta,2024-02-17,3740.11,2886,Yes,Third-party vendor involved
+INC-0230,2024-01-24,Phishing,Medium,Closed,VPN Gateway,IT,South,Divya Nair,2024-02-06,1871.71,47204,No,Investigation ongoing
+INC-0231,2024-02-09,Phishing,Low,Closed,CRM,Operations,East,Neha Joshi,2024-02-13,1875.51,21449,Yes,
+INC-0232,2024-01-05,DDoS,High,Closed,Web App,Legal,West,Amit Verma,2024-01-15,111066.61,48002,Under Review,Third-party vendor involved
+INC-0233,2024-03-18,Insider Threat,Critical,Open,Web App,Finance,West,Neha Joshi,,4074.58,6812,Yes,Third-party vendor involved
+INC-0234,2024-08-02,Ransomware,Medium,Open,VPN Gateway,SecOps,Central,Divya Nair,2024-08-04,7145.36,45930,No,
+INC-0235,2024-02-13,Malware,Medium,Open,ERP,Operations,South,Amit Verma,2024-03-01,6408.44,19115,No,No data loss confirmed
+INC-0236,2024-07-20,Data Exfiltration,High,In Progress,CRM,HR,South,Rohan Das,2024-08-13,48049.63,10184,Yes,Patch applied
+INC-0237,2024-08-18,DDoS,Low,Closed,Database,Operations,East,Rohan Das,2024-09-01,5405.65,5925,Yes,Investigation ongoing
+INC-0238,2024-12-26,Insider Threat,Medium,In Progress,CRM,Marketing,South,Karan Singh,2024-12-28,8375.66,25968,Under Review,Escalated to CISO
+INC-0239,2024-12-12,Malware,Medium,Closed,VPN Gateway,Finance,West,Rohan Das,2025-01-08,407.71,9161,Yes,Escalated to CISO
+INC-0240,2024-02-01,Malware,Medium,Resolved,CRM,Legal,Central,Neha Joshi,2024-02-09,2061.52,4914,Yes,User error confirmed
+INC-0241,2024-04-11,Insider Threat,Medium,Open,ERP,Operations,North,Sara Khan,2024-04-26,1010.59,37610,No,Containment successful
+INC-0242,2024-09-11,DDoS,Critical,In Progress,Database,IT,West,Sara Khan,,26334.68,2270,Under Review,Third-party vendor involved
+INC-0243,2024-11-27,Data Exfiltration,Critical,Closed,Email Server,Operations,South,Amit Verma,2024-12-11,9616.37,41337,Under Review,Escalated to CISO
+INC-0244,2024-07-14,Brute Force,Critical,Resolved,Web App,Operations,East,Sara Khan,2024-07-26,81905.41,1708,No,Third-party vendor involved
+INC-0245,2024-01-16,Brute Force,High,Resolved,VPN Gateway,HR,North,Amit Verma,2024-02-10,9259.39,43048,Yes,Investigation ongoing
+INC-0246,2024-09-30,DDoS,Low,Closed,Web App,SecOps,South,Sara Khan,2024-10-30,7664.09,15502,Under Review,No data loss confirmed
+INC-0247,2024-12-23,Insider Threat,Low,In Progress,VPN Gateway,SecOps,West,Neha Joshi,2025-01-11,7064.18,11505,No,Escalated to CISO
+INC-0248,2024-02-16,Brute Force,Medium,Open,Web App,Legal,South,Sara Khan,,297.29,22331,Under Review,Patch applied
+INC-0249,2024-06-14,Unauthorized Access,Medium,Open,Web App,Finance,East,Divya Nair,,5907.43,38405,Yes,No data loss confirmed
+INC-0250,2024-06-03,Brute Force,Critical,Resolved,Email Server,Marketing,Central,Karan Singh,2024-06-09,118880.46,14630,Under Review,Patch applied
+INC-0251,2024-07-12,Phishing,High,Closed,ERP,HR,Central,Karan Singh,2024-08-04,19538.58,40067,Yes,User error confirmed
+INC-0252,2024-09-11,Insider Threat,Low,In Progress,CRM,SecOps,East,Arjun Rao,,2456.16,746,No,Third-party vendor involved
+INC-0253,2024-05-07,Phishing,High,Open,Endpoint,Operations,West,Sara Khan,2024-05-19,118159.49,27133,No,Containment successful
+INC-0254,2024-06-28,DDoS,Critical,In Progress,Cloud Storage,Finance,North,Neha Joshi,2024-07-02,118415.13,1315,No,Investigation ongoing
+INC-0255,2024-02-23,Unauthorized Access,Medium,Open,CRM,IT,Central,Arjun Rao,,8890.52,46170,Yes,Containment successful
+INC-0256,2024-11-30,Ransomware,Critical,Resolved,VPN Gateway,HR,West,Neha Joshi,,23987.01,43292,No,Investigation ongoing
+INC-0257,2024-05-01,Brute Force,Critical,In Progress,ERP,IT,North,Divya Nair,,85979.59,5742,No,
+INC-0258,2024-04-12,Data Exfiltration,Medium,Open,Cloud Storage,SecOps,North,Neha Joshi,,1791.24,26048,No,
+INC-0259,2024-12-04,Malware,Critical,Resolved,Email Server,Operations,North,Neha Joshi,2024-12-25,28139.74,28818,No,Investigation ongoing
+INC-0260,2024-04-25,Ransomware,Low,Open,Web App,SecOps,Central,Divya Nair,2024-05-14,1596.19,49575,Under Review,Third-party vendor involved
+INC-0261,2024-10-10,Malware,Critical,Closed,VPN Gateway,Operations,East,Rohan Das,,122851.58,25873,Under Review,Escalated to CISO
+INC-0262,2024-09-14,Brute Force,Medium,In Progress,Email Server,HR,South,Sara Khan,2024-10-01,1290.79,2796,No,User error confirmed
+INC-0263,2024-12-15,Data Exfiltration,Medium,Resolved,CRM,Finance,West,Divya Nair,2025-01-11,8357.67,36179,No,Investigation ongoing
+INC-0264,2024-09-23,Malware,Low,Open,Endpoint,HR,South,Rohan Das,2024-10-21,7886.85,6922,Under Review,User error confirmed
+INC-0265,2024-05-26,Data Exfiltration,High,Closed,Cloud Storage,Legal,Central,Arjun Rao,2024-06-24,131745.09,2455,Yes,Investigation ongoing
+INC-0266,2024-07-25,Insider Threat,Critical,In Progress,ERP,Marketing,West,Neha Joshi,,6297.99,24408,Yes,No data loss confirmed
+INC-0267,2024-06-04,Ransomware,Critical,In Progress,Email Server,IT,West,Karan Singh,2024-07-01,128806.1,17656,Under Review,Containment successful
+INC-0268,2024-11-05,Malware,Critical,Closed,Web App,SecOps,North,Sara Khan,2024-11-12,32102.88,4300,No,Containment successful
+INC-0269,2024-03-10,DDoS,Low,Open,VPN Gateway,Finance,West,Priya Mehta,2024-03-27,1820.0,23617,Under Review,Third-party vendor involved
+INC-0270,2024-05-20,Ransomware,Critical,Open,VPN Gateway,IT,West,Arjun Rao,2024-06-04,95493.77,11638,No,No data loss confirmed
+INC-0271,2024-06-25,Ransomware,High,Resolved,ERP,Operations,North,Sara Khan,,112469.69,37503,Yes,Third-party vendor involved
+INC-0272,2024-11-27,Phishing,High,Open,Cloud Storage,HR,South,Priya Mehta,2024-12-04,97912.31,14664,No,Investigation ongoing
+INC-0273,2024-12-30,Malware,High,Resolved,Cloud Storage,IT,South,Arjun Rao,2025-01-20,63859.12,19801,Under Review,Containment successful
+INC-0274,2024-10-26,Data Exfiltration,High,Resolved,CRM,Operations,North,Karan Singh,,84437.84,18119,Under Review,No data loss confirmed
+INC-0275,2024-05-21,DDoS,High,Open,Endpoint,Marketing,East,Sara Khan,2024-06-13,28659.83,47270,Yes,
+INC-0276,2024-05-31,Phishing,Critical,In Progress,Web App,Marketing,South,Arjun Rao,2024-06-14,58547.1,44031,No,Investigation ongoing
+INC-0277,2024-03-28,Brute Force,Medium,In Progress,Database,Marketing,Central,Sara Khan,2024-04-26,3008.46,44545,No,User error confirmed
+INC-0278,2024-04-23,Insider Threat,High,Resolved,Database,Legal,East,Arjun Rao,2024-05-17,63360.65,7718,No,Escalated to CISO
+INC-0279,2024-11-20,DDoS,Low,Open,Endpoint,Legal,East,Divya Nair,2024-12-10,4774.97,3543,Yes,Patch applied
+INC-0280,2024-04-12,Unauthorized Access,Critical,Open,Cloud Storage,IT,South,Karan Singh,2024-05-01,21912.01,41582,Yes,Escalated to CISO
+INC-0281,2024-08-19,Unauthorized Access,Medium,Closed,CRM,HR,Central,Divya Nair,2024-09-13,5805.16,41516,No,Containment successful
+INC-0282,2024-08-07,DDoS,Low,Resolved,ERP,IT,Central,Amit Verma,2024-08-20,473.48,1174,Under Review,Escalated to CISO
+INC-0283,2024-11-16,Ransomware,High,Closed,Database,HR,North,Priya Mehta,2024-11-24,47157.79,19542,No,
+INC-0284,2024-09-23,Unauthorized Access,Critical,Resolved,Cloud Storage,IT,South,Sara Khan,2024-10-04,133252.12,26436,Yes,Third-party vendor involved
+INC-0285,2024-04-24,Unauthorized Access,Medium,Open,Web App,Marketing,North,Divya Nair,2024-04-29,7367.36,41964,No,Escalated to CISO
+INC-0286,2024-10-31,Phishing,Low,Open,CRM,Operations,West,Divya Nair,2024-11-22,6570.32,8099,Under Review,Investigation ongoing
+INC-0287,2024-08-30,Ransomware,Low,Resolved,Email Server,Operations,North,Rohan Das,2024-09-06,3081.05,18527,Yes,User error confirmed
+INC-0288,2024-09-11,DDoS,Medium,Resolved,Endpoint,IT,South,Priya Mehta,,7801.79,35922,No,Third-party vendor involved
+INC-0289,2024-12-18,Ransomware,Medium,Open,Cloud Storage,HR,North,Rohan Das,2024-12-29,127.11,47419,Under Review,User error confirmed
+INC-0290,2024-05-11,Phishing,High,Open,Email Server,SecOps,North,Neha Joshi,2024-05-26,39986.69,23607,Under Review,No data loss confirmed
+INC-0291,2024-08-06,Unauthorized Access,Low,In Progress,Web App,IT,West,Neha Joshi,2024-08-10,195.76,48042,Yes,No data loss confirmed
+INC-0292,2024-06-24,Brute Force,Critical,Resolved,Endpoint,Marketing,West,Divya Nair,,60337.41,42522,Yes,User error confirmed
+INC-0293,2024-03-08,Brute Force,Medium,Closed,Email Server,Legal,West,Karan Singh,2024-03-10,1126.76,40065,Yes,Patch applied
+INC-0294,2024-09-04,Ransomware,Critical,Resolved,Web App,Finance,Central,Amit Verma,2024-09-08,66382.84,43898,No,User error confirmed
+INC-0295,2024-08-09,Malware,Critical,In Progress,ERP,Finance,South,Arjun Rao,2024-08-17,52189.55,32495,Yes,User error confirmed
+INC-0296,2024-09-08,DDoS,High,Closed,Endpoint,SecOps,South,Rohan Das,2024-09-19,8027.43,30087,No,
+INC-0297,2024-02-15,Brute Force,High,Open,CRM,Operations,West,Priya Mehta,2024-03-01,18246.67,36512,Under Review,Escalated to CISO
+INC-0298,2024-02-16,DDoS,High,Closed,Web App,IT,North,Amit Verma,2024-03-07,133571.58,29783,No,
+INC-0299,2024-12-02,DDoS,Low,Open,Web App,IT,East,Karan Singh,2024-12-17,1064.63,46012,Yes,Escalated to CISO
+INC-0300,2024-03-25,DDoS,Critical,In Progress,CRM,SecOps,West,Amit Verma,2024-04-21,16490.75,29952,Yes,No data loss confirmed
