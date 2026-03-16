@@ -18,38 +18,7 @@ It was built as a hands-on capstone to consolidate skills across the Microsoft F
 
 ## Architecture
 
-```
-External HTTP Source (GitHub Raw URL)
-        │
-        ▼
-┌─────────────────────────────────────────────────────────┐
-│                    MedallionLakehouse                    │
-│                                                         │
-│  [BRONZE]  bronze_incidents                             │
-│      │     Raw Delta table — no transformation          │
-│      │     Ingested via: Pipeline_BronzeIngestion       │
-│      │                                                  │
-│      ▼                                                  │
-│  [SILVER]  silver_incidents                             │
-│      │     Typed, cleaned, enriched                     │
-│      │     Transformed via: DF_SilverTransform          │
-│      │     + Derived column: days_to_resolve            │
-│      │                                                  │
-│      ▼                                                  │
-│  [GOLD]    gold_cost_by_region_severity                 │
-│            gold_monthly_trend                           │
-│            Aggregated via: NB_GoldAggregation           │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-        │
-        ▼
-CyberIncidentsSemModel  (Direct Lake Semantic Model)
-  - DAX measures: Total Cost, Total Incidents, Avg Days to Resolve
-  - RLS: RegionFilter_North role
-        │
-        ▼
-CyberIncidents_Report  (Power BI Report)
-```
+![Architecture](docs/architecture.png)
 
 ---
 
